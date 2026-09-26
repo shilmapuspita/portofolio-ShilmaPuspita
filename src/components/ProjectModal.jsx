@@ -77,12 +77,26 @@ export default function ProjectModal({ project, onClose }) {
           <div className="project-modal-actions">
             {project.githubUrl && (
               <a
-                className="button button-primary"
+                className="button project-action-link project-github-link"
                 href={project.githubUrl}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
-                GitHub <span>↗</span>
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+            )}
+            {project.testCaseUrl && (
+              <a
+                className="project-action-link project-test-case-link"
+                href={project.testCaseUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 18 18" aria-hidden="true">
+                  <path d="M5 2.5h5l3 3v10H5z" />
+                  <path d="M10 2.5v3h3M6.7 8h5.5M6.7 10.4h5.5M6.7 12.8h5.5M9.4 8v4.8" />
+                </svg>
+                Test Case Black Box
               </a>
             )}
             {project.liveUrl && (

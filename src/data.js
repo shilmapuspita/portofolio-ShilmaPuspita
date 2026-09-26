@@ -29,6 +29,8 @@ export const projects = [
     number: "01",
     image: "/images/projects/simsdm.png",
     githubUrl: "https://github.com/shilmapuspita/SIMSDM-YayasanIndonesiaKhatam",
+    testCaseUrl:
+      "https://docs.google.com/spreadsheets/d/1zyMzCfJ-zSfi6GqDiX7-7hWRKbWj32hn/edit?usp=sharing&ouid=117084964032145356295&rtpof=true&sd=true",
 
     gallery: [
       {
