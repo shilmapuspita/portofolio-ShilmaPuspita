@@ -99,6 +99,20 @@ export default function ProjectModal({ project, onClose }) {
                 Test Case Black Box
               </a>
             )}
+            {project.documentUrl && (
+              <a
+                className="project-action-link project-document-link"
+                href={project.documentUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 18 18" aria-hidden="true">
+                  <path d="M5 2.5h5l3 3v10H5z" />
+                  <path d="M10 2.5v3h3M6.7 8h5.5M6.7 10.5h5.5M6.7 13h3.5" />
+                </svg>
+                Dokumen SRS &amp; SDD
+              </a>
+            )}
             {project.liveUrl && (
               <a
                 className="button button-secondary"

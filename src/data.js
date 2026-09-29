@@ -31,6 +31,8 @@ export const projects = [
     githubUrl: "https://github.com/shilmapuspita/SIMSDM-YayasanIndonesiaKhatam",
     testCaseUrl:
       "https://docs.google.com/spreadsheets/d/1zyMzCfJ-zSfi6GqDiX7-7hWRKbWj32hn/edit?usp=sharing&ouid=117084964032145356295&rtpof=true&sd=true",
+    documentUrl:
+      "https://docs.google.com/document/d/1DUd2HFcwyxXMq4zvwLiehlgETdwZDGO3/edit?usp=sharing&ouid=117084964032145356295&rtpof=true&sd=true",
 
     gallery: [
       {
