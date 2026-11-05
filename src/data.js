@@ -315,7 +315,7 @@ export const experiences = [
     detail:
       "Managed financial records, budgeting, and funding allocations for organizational activities, ensuring transparency and accountability in financial management.",
     type: "organization",
-    image: "/images/experience/asdos.jpeg",
+    image: "/images/experience/senada.jpeg",
     imagePosition: "center center",
   },
   {
