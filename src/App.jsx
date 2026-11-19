@@ -6,6 +6,7 @@ import ProjectModal from "./components/ProjectModal";
 import { certificates, experiences, projects, techStack } from "./data";
 import "./App.css";
 
+
 function TechIcon({ type }) {
   const labels = {
     php: "php",
@@ -22,9 +23,10 @@ function TechIcon({ type }) {
     "black-box": "BB",
     uat: "UAT",
     figma: "Fi",
-    excel: "X",
-    word: "W",
+    postman: "PM",
+    maestro: "Ma",
   };
+
   return (
     <span className={`tech-icon icon-${type}`} aria-hidden="true">
       {labels[type]}
@@ -77,15 +79,14 @@ function HomePage({ onSelectProject }) {
               </span>
             </h1>
             <p className="hero-lede">
-              Information Systems Graduate & Web Developer
+              Information Systems Graduate | Web Developer & QA Engineer
             </p>
             <p className="hero-bio">
               I build practical and user-friendly web applications while
-              combining technical skills, problem-solving, and an understanding
-              of business processes. With hands-on experience in web
-              development, system analysis, and software testing, I’m passionate
-              about creating reliable digital solutions that solve real-world
-              problems.
+              ensuring their quality, functionality, and reliability. With
+              hands-on experience in web development, system analysis, and
+              software testing, I combine technical skills and problem-solving
+              to create reliable digital solutions that meet user needs.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="/projects">
@@ -97,7 +98,7 @@ function HomePage({ onSelectProject }) {
             </div>
           </div>
           <div className="hero-portrait" aria-label="Photo of Shilma Puspita">
-            <img src="/images/gradu1.JPG" alt="Shilma Puspita" />
+            <img src="/images/shilma.jpg" alt="Shilma Puspita" />
             <span className="portrait-glow" />
             <span className="portrait-label">SHILMA / 01</span>
             <span className="portrait-coordinate">
@@ -122,47 +123,50 @@ function HomePage({ onSelectProject }) {
             }
           >
             <span>
-              I&apos;m an Information Systems graduate from STT Terpadu Nurul
-              Fikri with hands-on experience in web development, system
-              analysis, and software testing. I enjoy turning ideas and
-              real-world problems into practical, user-friendly digital
-              solutions.
+              I'm an Information Systems graduate from STT Terpadu Nurul Fikri
+              with experience in web development, system analysis, and Quality
+              Assurance. I enjoy building applications and ensuring they work as
+              expected through careful testing and problem-solving.
             </span>
             <span style={{ display: "block", marginTop: "1rem" }}>
-              Through internships, academic projects, and teaching experiences,
-              I&apos;ve developed not only my technical skills but also my
-              ability to analyze problems, communicate ideas, and collaborate
-              with others.
+              Through professional experience, internships, academic projects,
+              and teaching activities, I've developed my technical skills,
+              attention to detail, analytical thinking, and ability to
+              collaborate with others.
             </span>
+
             <span style={{ display: "block", marginTop: "1rem" }}>
-              I&apos;m always curious to learn, improve, and build technology
-              that is useful for the people who use it.
+              I'm passionate about learning new technologies, improving software
+              quality, and creating reliable digital solutions that provide
+              meaningful value to users.
             </span>
           </SectionIntro>
+
           <div className="about-grid">
             <div className="about-note">
               <div className="about-note-top">
                 <span className="about-note-index">PROFILE / 01</span>
                 <span className="about-note-status">
-                  <span className="status-dot" /> curious by default
+                  <span className="status-dot" /> always learning & improving
                 </span>
               </div>
               <span className="quote-mark">“</span>
               <p>
-                Good technology isn&apos;t just about how it works, but how well
-                it helps people.
+                Great software is not only built with purpose, but also tested
+                with care to ensure quality and reliability.
               </p>
               <span className="note-sign">— Shilma Puspita</span>
               <div className="about-note-footer">
-                <span>IS · WEB · PRODUCT</span>
+                <span>DEVELOPMENT · QA · ANALYSIS</span>
                 <span>2026</span>
               </div>
             </div>
+
             <div className="tech-panel">
               <div className="panel-heading">
                 <div>
                   <span className="panel-kicker">My everyday toolkit</span>
-                  <strong>Tools I use</strong>
+                  <strong>Tools & Technologies</strong>
                 </div>
                 <span className="panel-count">
                   {String(techStack.length).padStart(2, "0")} /{" "}

@@ -590,11 +590,13 @@
   .icon-figma {
     background: #ff9fc5;
   }
-  .icon-excel {
-    background: #82e3a7;
+  .icon-postman {
+    color: #ffffff;
+    background: #ff6c37;
   }
-  .icon-word {
-    background: #9de6ff;
+  .icon-maestro {
+    color: #ffffff;
+    background: #6528f7;
   }
   .section-heading-row {
     display: flex;

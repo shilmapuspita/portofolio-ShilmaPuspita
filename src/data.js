@@ -13,8 +13,8 @@ export const techStack = [
   { name: "Black Box Testing", type: "black-box", tone: "cyan" },
   { name: "UAT", type: "uat", tone: "cyan" },
   { name: "Figma", type: "figma", tone: "pink" },
-  { name: "Excel", type: "excel", tone: "green" },
-  { name: "Word", type: "word", tone: "blue" },
+  { name: "Postman", type: "postman", tone: "orange" },
+  { name: "Maestro", type: "maestro", tone: "purple" },
 ];
 
 export const projects = [
